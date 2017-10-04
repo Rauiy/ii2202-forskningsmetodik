@@ -4,9 +4,9 @@ Compile any of the programs with, gcc -O -fopenmp -o <output name> <inputfile.c>
 
 fibonacci.c has an input <number> and computes the sequence of <number>
 
-fibonaccim.c has two inputs <number> and <threads>. It computes the sequence of <number> with <threads> threads
+fibonacci-multi.c has two inputs <number> and <threads>. It computes the sequence of <number> with <threads> threads
 
-fibonaccim2.c has two inputs <number> and <threads>. It computes <threads> sequences of <number> in each thread.
+fibonacci-multi2.c has two inputs <number> and <threads>. It computes <threads> sequences of <number> in each thread.
 
 MatrixSum.c has two inputs <threads> and <times>. It calculates the sum of a random 1000x1000 matrix <times> times with <threads> threads. 
 
