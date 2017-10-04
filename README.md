@@ -6,7 +6,7 @@ fibonacci.c has an input N and computes the sequence of N
 
 fibonacci-multi.c has two inputs N and T It computes the sequence of N with T threads
 
-fibonacci-multi2.c has two inputs N and T. It computes <threads> sequences of <number> in each thread.
+fibonacci-multi2.c has two inputs N and T. It computes T sequences of N in each of the T threads.
 
 MatrixSum.c has two inputs T and Ti. It calculates the sum of a random 1000x1000 matrix Ti times with T threads. 
 
