@@ -2,8 +2,6 @@
 
 Compile any of the programs with, gcc -O -fopenmp -o <output name> <inputfile.c>
 
-Fibonacci methods
-
 fibonacci.c has an input <number> and computes the sequence of <number>
 
 fibonaccim.c has two inputs <number> and <threads>. It computes the sequence of <number> with <threads> threads
